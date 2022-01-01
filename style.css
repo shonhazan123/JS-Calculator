@@ -1,0 +1,80 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content:center;
+    align-items: center;  
+    background-color: hsl(222, 26%, 31%); 
+    overflow: hidden;
+}
+
+.calculator{
+ display: flex;
+ align-items:flex-start;
+ flex-direction: column;
+ width: 30%;
+ height: 75%;
+ 
+
+}
+.header{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2rem 0rem;
+
+}
+
+.numbers{
+    width:100% ;
+    padding: 5rem 0rem;
+    background-color:hsl(224, 36%, 15%);
+    border-radius: .5rem;
+    margin: 2rem 0rem;
+    color:white;
+    font-size: 32px;
+}
+
+.buttons{
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    width:95% ;
+    height: 70%;
+    padding: 2rem 1rem 1rem 1rem;
+    background-color:hsl(223, 31%, 20%);
+    border-radius: .5rem
+}
+
+#del{
+    background-color:hsl(225, 21%, 49%);
+    padding: .5rem 1.5rem;
+}
+
+.button{
+    font-size: 32px;
+    margin: .5rem .3rem;
+    padding:.5rem 3.5rem;
+     border-radius: .5rem;
+    background-color:hsl(30, 25%, 89%);
+}
+.reset{
+    padding: 1rem 5rem;
+    margin: 1rem .5rem;
+    border-radius: 1rem;
+    font-size: 32px;
+    background-color: hsl(225, 21%, 49%);
+}
+.equel{
+    padding: 1rem 9rem;
+    margin: 1rem .5rem;
+    border-radius: 1rem;
+    font-size: 32px;
+    background-color: hsl(7, 72%, 52%);
+}
